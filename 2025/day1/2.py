@@ -1,4 +1,4 @@
-with open("1_1_input.txt", 'r') as file:
+with open("input.txt", 'r') as file:
     tokens = file.readlines()
 
 tokens_trimmed_newline = [line.rstrip('\n') for line in tokens]
